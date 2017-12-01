@@ -9,8 +9,11 @@ The "Channel" is an sha-256 hash of the url of the page that is being projected.
 
 ## Starting the server
 
-`cd server`
-`node server.js`
+```
+cd server
+npm install
+node server.js
+```
 
 ## Chrome extension
 
