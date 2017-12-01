@@ -51,7 +51,7 @@ var startMirroring = function() {
   sha256(window.location.href)
     .then(function(hashString) {
 
-      const serverURL = 'ws://localhost:8080/projector/'+ hashString;
+      const serverURL = 'ws://localhost:8765/projector/'+ hashString;
 
       socket = new WebSocket(serverURL);
       var mirrorClient;
